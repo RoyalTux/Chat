@@ -1,0 +1,15 @@
+c:\users\dmitry\source\repos\Chat\Chat\bin\Debug\Chat.exe.config
+c:\users\dmitry\source\repos\Chat\Chat\bin\Debug\Chat.exe
+c:\users\dmitry\source\repos\Chat\Chat\bin\Debug\Chat.pdb
+c:\users\dmitry\source\repos\Chat\Chat\obj\Debug\Chat.csprojAssemblyReference.cache
+c:\users\dmitry\source\repos\Chat\Chat\obj\Debug\MainWindow.g.cs
+c:\users\dmitry\source\repos\Chat\Chat\obj\Debug\App.g.cs
+c:\users\dmitry\source\repos\Chat\Chat\obj\Debug\Chat_MarkupCompile.cache
+c:\users\dmitry\source\repos\Chat\Chat\obj\Debug\Chat_MarkupCompile.lref
+c:\users\dmitry\source\repos\Chat\Chat\obj\Debug\MainWindow.baml
+c:\users\dmitry\source\repos\Chat\Chat\obj\Debug\Chat.g.resources
+c:\users\dmitry\source\repos\Chat\Chat\obj\Debug\Chat.Properties.Resources.resources
+c:\users\dmitry\source\repos\Chat\Chat\obj\Debug\Chat.csproj.GenerateResource.cache
+c:\users\dmitry\source\repos\Chat\Chat\obj\Debug\Chat.csproj.CoreCompileInputs.cache
+c:\users\dmitry\source\repos\Chat\Chat\obj\Debug\Chat.exe
+c:\users\dmitry\source\repos\Chat\Chat\obj\Debug\Chat.pdb

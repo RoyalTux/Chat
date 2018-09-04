@@ -1,0 +1,36 @@
+﻿<Window x:Class="Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Client"
+        mc:Ignorable="d"
+        Title="Client" Topmost="True" Background="Black" ResizeMode="CanMinimize" Height="435.6" Width="579.835" WindowStartupLocation="CenterScreen" Icon="/icons/user.png">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="247.2"/>
+            <RowDefinition Height="76"/>
+            <RowDefinition Height="29.6"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="104.8"/>
+            <ColumnDefinition Width="282.4"/>
+            <ColumnDefinition Width="60"/>
+            <ColumnDefinition Width="124.8"/>
+        </Grid.ColumnDefinitions>
+        <Label FontWeight="Bold" Margin="2,5,3.6,0.6" FontSize="20" Foreground="LightBlue">Server IP:</Label>
+        <TextBox x:Name="IP" TextAlignment="Center" Text="127.0.0.1" Grid.Column="1" Margin="9.4,10,14.8,10.6" Foreground="LightGreen" Background="Black" FontWeight="Bold" FontSize="20"></TextBox>
+        <Label FontWeight="Bold" Grid.Column="2" Margin="2.2,5,1.8,0.6" FontSize="20" Foreground="LightBlue">Port:</Label>
+        <TextBox x:Name="Port" TextAlignment="Center" MinWidth="30" Text="11000" Grid.Column="3" Margin="9.2,10,0,10.6"  Foreground="LightGreen" Background="Black" FontWeight="Bold" FontSize="20" HorizontalAlignment="Left" Width="96"></TextBox>
+
+        <Button Click="Connect_Click" x:Name="Connect" Focusable="True" Foreground="YellowGreen" Grid.Row="1" Margin="10,9.4,123.8,11.2" FontWeight="Bold" FontSize="19" Background="Green" Grid.ColumnSpan="2">Connect</Button>
+        <Button Click="DisConnect_Click" x:Name="DisConnect" Foreground="LightPink" Grid.Row="1" Grid.Column="1" Margin="179.4,9.4,19.6,11.2" FontWeight="Bold" FontSize="19" Background="Red" Grid.ColumnSpan="3">Disconnect</Button>
+
+        <ListBox x:Name="ClientLog" Background="Black" Foreground="Yellow" Grid.Row="1" Grid.ColumnSpan="4" Margin="10,49.4,19.6,0.2" Grid.RowSpan="2"></ListBox>
+
+        <TextBox x:Name="MesClient" FontWeight="Bold" FontSize="20" Background="Black" Foreground="LightGreen" Grid.Row="3" Grid.ColumnSpan="4" Margin="10,9.8,124.6,35.2"/>
+        <Button Click="SendClient_Click" x:Name="SendClient" Grid.Row="3" Grid.Column="3" Margin="10.2,9.8,19.6,35.2" FontWeight="Bold" FontSize="20" Background="AliceBlue" Foreground="Green">Send</Button>
+    </Grid>
+</Window>
